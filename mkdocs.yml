@@ -35,7 +35,6 @@ theme:
 
 plugins:
     - search
-    - info
     - tags
 
 markdown_extensions:
