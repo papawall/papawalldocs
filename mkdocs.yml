@@ -1,6 +1,10 @@
 site_name: ✈️NULL DOC
 site_url: https://docs.papawall.cc
 
+
+repo_name: PaPaWall/Doc
+repo_url: https://github.com/papawall/padoc
+
 theme:
     favicon: assets/logo.png
     logo: assets/googlelogo.png
