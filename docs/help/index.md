@@ -46,7 +46,8 @@
 
 ---
 
-🤦‍♂️🤷‍♂️实在是不想自己解决就[联系客服 :fontawesome-solid-paper-plane:](https://papawall.pro/chat.html){ .md-button }进行远程处理
+    🤦‍♂️🤷‍♂️如果遇到问题自己无法解决请点击下方
+[联系客服 :fontawesome-solid-paper-plane:{ .plane }](https://papawall.pro/chat.html){ .md-button }
 
 
 `注:安卓&ios 无法远程设备 需要通过截图来解决`

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NULL</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* 内容在中间 */
+            align-items: center;
+            text-align: center;
+            background: url('https://bbs.papawall.cc/assets/bg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            transition: background 1s ease; /* 背景图片消失时的过渡效果 */
+        }
+        .message-container {
+            position: relative;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* 垂直居中 */
+            align-items: center;
+        }
+        .message {
+            font-size: 25px;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px #000000;
+            animation: blink 1.5s infinite;
+            transition: font-size 1s ease, color 1s ease; /* 字体大小、颜色变化时的过渡效果 */
+        }
+        .connected-message {
+            font-size: 27px;
+            color: #000000;
+            margin-top: 20px;
+            display: none; /* 初始不显示 */
+        }
+        .icon {
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            font-size: 50px;
+            color: #007bff;
+            cursor: pointer;
+            animation: blink 1s infinite;
+        }
+        .links-container {
+            display: none;
+            justify-content: center; /* 水平居中 */
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+            border: 2px solid #000;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .links a {
+            color: #000000;
+            text-decoration: none;
+            margin: 5px 0;
+            font-size: 20px;
+            padding: 10px 20px;
+            border: 1px solid #000;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.9);
+            width: 100%;
+            max-width: 200px; /* 限制最大宽度 */
+        }
+        .inner-link {
+            margin: 10px 0; /* 外方框与内方框的间隔 */
+        }
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+    <script type="text/javascript">
+        window.$crisp = [];
+        window.CRISP_WEBSITE_ID = "c7e085e8-fb04-4a11-bf21-74d981af2dab";
+        (function() {
+            d = document;
+            s = d.createElement("script");
+            s.src = "https://client.crisp.chat/l.js";
+            s.async = 1;
+            d.getElementsByTagName("head")[0].appendChild(s);
+        })();
+
+        function displayConnectedMessage() {
+            const messageDiv = document.querySelector('.message');
+            const connectedMessageDiv = document.querySelector('.connected-message');
+            messageDiv.style.display = 'none';
+            connectedMessageDiv.style.display = 'block';
+            document.body.style.background = 'url(https://bbs.papawall.cc/assets/bg22.jpg) no-repeat center center fixed'; // 更改背景图片
+            document.body.style.backgroundSize = 'cover';
+            document.querySelector('.links-container').style.display = 'flex';
+        }
+
+        setTimeout(function() {
+            window.$crisp.push(['do', 'chat:open']);
+            displayConnectedMessage();
+        }, 8000); // 8秒后
+    </script>
+</head>
+<body>
+    <div class="connected-message">已连接</div>
+    <div class="message-container">
+        <div class="message">
+            世界有你更美好<br>
+            客服连线中...
+        </div>
+    </div>
+    <div class="icon" onclick="window.$crisp.push(['do', 'chat:open'])">
+        &#x21AA;
+    </div>
+    <div class="links-container">
+        <div class="inner-link"><a href="https://papawall.pro">返回首页</a></div>
+        <div class="inner-link"><a href="https://154.12.80.60/">登录&注册</a></div>
+    </div>
+</body>
+</html>
