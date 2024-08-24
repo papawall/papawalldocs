@@ -43,5 +43,4 @@
 
      2.如果自己没有更好的办法了,请点击的联系客服.让我们来帮助你吧!
 ---
-[联系客服 :fontawesome-solid-paper-plane:{ .plane }](../../chat.html){ .md-button }
-  
+[联系客服 :fontawesome-solid-paper-plane:{ .plane }](../../chat.html){ .md-button .md-button--primary }
