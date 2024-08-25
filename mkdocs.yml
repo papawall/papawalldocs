@@ -13,7 +13,7 @@ nav:  #边侧栏目录
     - 🍎iOS教程: ./help/ios/index.md
 
 repo_name: PaPaWall/Doc
-repo_url: https://papallwall.pro
+repo_url: https://papawall.pro
 
 theme:
     #font:
