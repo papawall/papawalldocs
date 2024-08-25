@@ -8,7 +8,7 @@
 
 <figure markdown="span">
   ![Image title](https://bbs.papawall.cc/assets/bg.jpg){ width="600" }
-  <figcaption>图片测试</figcaption>
+  <figcaption>P</figcaption>
 </figure>
 
 :octicons-heart-fill-24:{ .heart }   :fontawesome-brands-youtube:{ .youtube }
