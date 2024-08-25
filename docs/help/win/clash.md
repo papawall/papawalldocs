@@ -1,11 +1,11 @@
-## ![Image title](../../assets/photo/win/clash/clashlogo.png){ width="40" } Clash 教程
+# Clash 教程![Image title](../../assets/photo/win/clash/clashlogo.png){ width="40" }
 ---
 
 [联系客服 :fontawesome-solid-paper-plane:{ .plane }](../../chat.html){ .md-button .md-button--primary }
 
 ---
 
-### 1.首先下载客户端
+### 1️⃣:首先下载客户端
 !!! tip "温馨提示"
     
     客户端不会经常更新了,为了保证安全性,请确保下载的为下方的客户端 
@@ -14,7 +14,10 @@
 
 ---
 
-### 2.登录官网[^2] 
+### 2️⃣:登录官网[^2] 
+
+!!! note "首先你需要注册好账户,购买好相应的订阅套餐(开心就好)"
+
 官网地址1 [https://papawall.pro](https://papawall.pro)
 
 官网地址2 [https://papawall.lol](https://papawall.lol)
@@ -22,11 +25,9 @@
 如遇打不开,请联系客服获取最新地址
 
 
-    首先你需要注册好账户,购买好相应的订阅套餐(开心就好)
-
 ---
 
-### 3.点击官网首页的一键订阅
+### 3️⃣:点击官网首页的一键订阅
 
 <figure markdown="span">
 ![Image title](../../assets/photo/win/clash/home1.png){ width="650" }
@@ -40,7 +41,7 @@
 </figure>
 ---
 
-### 4.软件操作
+### 4️⃣:软件操作
 
 !!! tip "订阅更新"
     如何更新订阅?[^3]

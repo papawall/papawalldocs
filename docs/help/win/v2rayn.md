@@ -1,4 +1,4 @@
-## ![Image title](../../assets/photo/win/v2rayn/v2rayn.png){ width="40" }v2rayN教程
+# v2rayN![Image title](../../assets/photo/win/v2rayn/v2rayn.png){ width="40" }教程
 ---
 
 [联系客服 :fontawesome-solid-paper-plane:{ .plane }](../../chat.html){ .md-button .md-button--primary }
@@ -9,13 +9,13 @@
     能使用这个客户端的小伙伴 购买&添加订阅步骤我就不说了
     软件支持支持Xray 核心 v2fly核心  Singbox核心
 
-### 1️⃣.下载客户端
+### 1️⃣:下载客户端
 
 [⏬ 点此下载 ⏬](https://github.com/2dust/v2rayN/releases){ .md-button }[^1] 
 
 ---
 
-### 2️⃣.添加订阅&更新订阅获取节点
+### 2️⃣:添加订阅&更新订阅获取节点
 <figure markdown="span">
 ![Image title](../../assets/photo/win/v2rayn/v21.png){ width="500" }
   <figcaption>点击订阅分组设置</figcaption>
