@@ -31,7 +31,6 @@
     打开官网 点击一键订阅----导入到Clash For Android
 <figure markdown="span">
 ![Image title](../../assets/photo/android/clash/aclash1.png){ width="430" }
-  <figcaption>打开官网,点击一键订阅,然后点击打开Clash For Android</figcaption>
 </figure>
 
 ---
@@ -39,7 +38,6 @@
 !!! note "点击保存按钮"
 <figure markdown="span">
 ![Image title](../../assets/photo/android/clash/aclash2.png){ width="430" }
-  <figcaption>打开官网,点击一键订阅,然后点击打开Clash For Android</figcaption>
 </figure>
 
 ---
@@ -48,7 +46,6 @@
 !!! note "保存好以后选择订阅文件"
 <figure markdown="span">
 ![Image title](../../assets/photo/android/clash/aclash3.png){ width="430" }
-  <figcaption>打开官网,点击一键订阅,然后点击打开Clash For Android</figcaption>
 </figure>
 
 ---
@@ -57,7 +54,6 @@
 !!! note "选中为实心蓝色,然后我们返回到首页"
 <figure markdown="span">
 ![Image title](../../assets/photo/android/clash/aclash4.png){ width="430" }
-  <figcaption>打开官网,点击一键订阅,然后点击打开Clash For Android</figcaption>
 </figure>
 
 ---
@@ -66,7 +62,6 @@
 !!! note "把已停止点击一下变为运行中,然后我们就可以去选择节点了."
 <figure markdown="span">
 ![Image title](../../assets/photo/android/clash/aclash5.png){ width="430" }
-  <figcaption>打开官网,点击一键订阅,然后点击打开Clash For Android</figcaption>
 </figure>
 
 ---
@@ -75,7 +70,6 @@
 !!! note "选择一个适合你的节点"
 <figure markdown="span">
 ![Image title](../../assets/photo/android/clash/aclash6.png){ width="430" }
-  <figcaption>打开官网,点击一键订阅,然后点击打开Clash For Android</figcaption>
 </figure>
 
 ---
@@ -84,7 +78,6 @@
 !!! note "我们就可以开始出国学习资料了."
 <figure markdown="span">
 ![Image title](../../assets/photo/android/clash/aclash7.png){ width="430" }
-  <figcaption>打开官网,点击一键订阅,然后点击打开Clash For Android</figcaption>
 </figure>
 
 ---
