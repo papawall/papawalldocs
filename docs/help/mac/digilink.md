@@ -10,11 +10,33 @@
     
     最简单的客户端,只需要在软件里面注册 登录 购买好订阅即可使用.
     
-[⏬ 点此下载 ⏬](https://154.12.80.60/DigilinkSetup_1.3.10.exe){ .md-button }[^1] 
+[⏬ M系列处理器点此下载 ⏬](https://154.12.80.60/Digilink-1.3.10-arm64.pkg){ .md-button }
+[⏬ Intel系列处理器点此下载 ⏬](https://154.12.80.60/Digilink-1.3.10.pkg){ .md-button }[^1] 
 
 ---
 
 ### 2️⃣:安装客户端
+!!! warning "由于Mac系统设计时为了安全考虑,未签名的软件无法直接打开,需要手动确认."
+    请跟着图片一步一步操作即可.
+<figure markdown="span">
+![Image title](../../assets/photo/mac/digilink/macdl1.png){ width="280" }
+  <figcaption>打开安装软件后点击好</figcaption>
+![Image title](../../assets/photo/mac/digilink/macdl2.png){ width="600" }
+  <figcaption>打开系统设置,找到隐私与安全性,往下拉,点击仍要打开.</figcaption>
+![Image title](../../assets/photo/mac/digilink/macdl3.png){ width="600" }
+  <figcaption>输入你的验证信息,指纹或者密码.</figcaption>
+![Image title](../../assets/photo/mac/digilink/macdl4.png){ width="280" }
+  <figcaption>点击打开</figcaption>
+![Image title](../../assets/photo/mac/digilink/macdl5.png){ width="600" }
+  <figcaption>一路继续安装到底</figcaption>
+![Image title](../../assets/photo/mac/digilink/macdl6.png){ width="600" }
+  <figcaption>点击移到废纸篓,安装包就可以删除了</figcaption>
+  <figcaption></figcaption>
+</figure>
+!!! tip "软件的安装就已经完成.然后去程序坞里面打开Digilink,开始下一步."
+---
+
+### 3️⃣:软件的使用
 !!! note "安装好客户端以后直接登录,没有账户的注册一下."
 <figure markdown="span">
 ![Image title](../../assets/photo/win/digilink/dl1.png){ width="600" }
@@ -58,6 +80,15 @@
 <figure markdown="span">
 ![Image title](../../assets/photo/win/clash/googlehello.png){ width="600" }
   <figcaption>可以开始网上冲浪拉!🏄‍</figcaption>
+</figure>
+
+---
+
+!!! warning "连接好以后,如果出现有一些软件无法进行学习的情况.请在设置里打开TUN模式即可解决."
+
+<figure markdown="span">
+![Image title](../../assets/photo/mac/digilink/macdl7.png){ width="600" }
+  <figcaption>点击连接</figcaption>
 </figure>
 
 ---

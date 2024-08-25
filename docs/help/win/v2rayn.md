@@ -62,7 +62,7 @@
     IPv6 DNS
       - 2400:3200::1           (阿里公共DNS)
       - 2001:4860:4860::8888   (谷歌公共DNS)
-
+!!! bug "90%的问题基本都可以解决,请仔细检查呀 如果解决不了请联系客服"
 
 [^1]: [windows x64] [v2rayN-With-Core.zip 包含所有Core文件];
 [v2rayN.zip 不包含Core文件];[zz-v2rayN-With-Core-SelfContained.7z 包含所有Core文件 不需要下载安装Microsoft .NET 8.0 Desktop Runtime];[windows x86] [v2rayN-32.zip 不包含Core文件];[windows arm64][v2rayN-arm64.zip 不包含Core文件]
