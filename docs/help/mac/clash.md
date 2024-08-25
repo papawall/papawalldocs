@@ -1,7 +1,7 @@
 # Clash 教程![Image title](../../assets/photo/win/clash/clashlogo.png){ width="40" }
 ---
 
-[联系客服 :fontawesome-solid-paper-plane:{ .plane }](../../chat.html){ .md-button .md-button--primary }
+[联系客服 :fontawesome-solid-user-plus:{ .plane }](../../chat.html){ .md-button .md-button--primary }
 
 ---
 
@@ -10,7 +10,7 @@
     
     客户端不会经常更新了,为了保证安全性,请确保下载的为下方的客户端 
     
-[⏬ 点此下载 ⏬](https://154.12.80.60/Clash_Mac.dmg){ .md-button }[^1] 
+[:material-arrow-down:{ .plane } 点此下载 :material-arrow-down:{ .plane }](https://154.12.80.60/Clash_Mac.dmg){ .md-button }[^1] 
 
 ---
 

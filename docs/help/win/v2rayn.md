@@ -1,7 +1,7 @@
 # v2rayN![Image title](../../assets/photo/win/v2rayn/v2rayn.png){ width="40" }教程
 ---
 
-[联系客服 :fontawesome-solid-paper-plane:{ .plane }](../../chat.html){ .md-button .md-button--primary }
+[联系客服 :fontawesome-solid-user-plus:{ .plane }](../../chat.html){ .md-button .md-button--primary }
 
 ---
 
@@ -11,7 +11,7 @@
 
 ### 1️⃣:下载客户端
 
-[⏬ 点此下载 ⏬](https://github.com/2dust/v2rayN/releases){ .md-button }[^1] 
+[:material-arrow-down:{ .plane } 点此下载 :material-arrow-down:{ .plane }](https://github.com/2dust/v2rayN/releases){ .md-button }[^1] 
 
 ---
 

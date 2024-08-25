@@ -1,3 +1,11 @@
+---
+date: 2023-12-31
+updated: 2024-01-02
+categories:
+  - Holidays
+tags:
+  - Windows
+---
 # 📚Windows 教程注意事项
 ---
 ### ⚠️win教程为四个部分
@@ -43,4 +51,4 @@
 
      2.如果自己没有更好的办法了,请点击的联系客服.让我们来帮助你吧!
 ---
-[联系客服 :fontawesome-solid-paper-plane:{ .plane }](../../chat.html){ .md-button .md-button--primary }
+[联系客服 :fontawesome-solid-user-plus:{ .plane }](../../chat.html){ .md-button .md-button--primary }

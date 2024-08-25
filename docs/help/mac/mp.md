@@ -1,7 +1,7 @@
 # Mihomo Party教程 ![Image title](../../assets/photo/win/mp/mplogo.png){ width="50" }
 ---
 
-[联系客服 :fontawesome-solid-paper-plane:{ .plane }](../../chat.html){ .md-button .md-button--primary }
+[联系客服 :fontawesome-solid-user-plus:{ .plane }](../../chat.html){ .md-button .md-button--primary }
 
 ---
 
@@ -10,8 +10,8 @@
     
     此客户端更新频繁,而且可以备份设置到你自己的WebDav 比较方便 与win平台通用.
     
-[⏬ M系列处理器点此下载 ⏬](https://154.12.80.60/mihomo-party-macos-1.0.4-arm64.dmg){ .md-button }
-[⏬ Intel系列处理器点此下载 ⏬](https://154.12.80.60/mihomo-party-macos-1.0.4-x64.dmg){ .md-button }[^1] 
+[:material-arrow-down:{ .plane } M系列处理器点此下载 :material-arrow-down:{ .plane }](https://154.12.80.60/mihomo-party-macos-1.0.4-arm64.dmg){ .md-button }
+[:material-arrow-down:{ .plane } Intel系列处理器点此下载 :material-arrow-down:{ .plane }](https://154.12.80.60/mihomo-party-macos-1.0.4-x64.dmg){ .md-button }[^1] 
 
 ---
 

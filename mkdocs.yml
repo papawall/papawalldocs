@@ -1,18 +1,23 @@
 site_name: ✈️NULL DOC
 site_url: https://docs.papawall.cc
 nav:  #边侧栏目录
-  - 🌈首页: ./index.md
-  - ⚡目录: ./help/index.md
+## - 档案相关:
+  - 🌈档案首页: ./index.md
+  - ✈️停机坪: https://papawall.pro
+  - 🏪NULL商店: https://shop.papawall.com
+  - ⚡档案目录: ./help/index.md
   - 📚教程:
     - 🖥️Windows教程: ./help/win/index.md
     - 💻Mac教程: ./help/mac/index.md
     - 📱Android教程: ./help/android/index.md
     - 🍎iOS教程: ./help/ios/index.md
 
-#repo_name: PaPaWall/Doc
-#repo_url: https://github.com/papawall/padoc
+repo_name: PaPaWall/Doc
+repo_url: https://papallwall.pro
 
 theme:
+    #font:
+      #text: Work Sans
     favicon: assets/logo.png
     logo: assets/googlelogo.png
     name: material
@@ -21,10 +26,13 @@ theme:
       scheme: default
       primary: white
     featuers:
+      - search.suggest
+      - search.share
       - search.highlight
       - content.tabs.link
       - content.code.annotation
       - content.code.copy
+      - navigation.top
       - navigation.instant
       - navigation.instant.preview
       - navigation.tabs
@@ -35,7 +43,10 @@ theme:
       - toc.integrate
       - header.autohide
       - announce.dismiss
+      - content.tooltips
+
     icon:
+      repo: fontawesome/brands/bitbucket
     admonition:
       note: octicons/tag-16
       abstract: octicons/checklist-16
@@ -61,7 +72,14 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
   - def_list
   - md_in_html
   - pymdownx.tasklist:
@@ -75,7 +93,6 @@ markdown_extensions:
       generic: true
   - footnotes
   - pymdownx.details
-  - pymdownx.mark
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji

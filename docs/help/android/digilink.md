@@ -1,7 +1,7 @@
 # DigiLink 教程  ![Image title](../../assets/photo/win/digilink/digilinklogo.png){ width="40" }
 ---
 
-[联系客服 :fontawesome-solid-paper-plane:{ .plane }](../../chat.html){ .md-button .md-button--primary }
+[联系客服 :fontawesome-solid-user-plus:{ .plane }](../../chat.html){ .md-button .md-button--primary }
 
 ---
 
@@ -10,7 +10,7 @@
     
     最简单的客户端,只需要在软件里面注册 登录 购买好订阅即可使用.
     
-[⏬ 点此下载 ⏬](https://154.12.80.60/Digilink-1.3.10-universal-release.apk){ .md-button }[^1] 
+[:material-arrow-down:{ .plane } 点此下载 :material-arrow-down:{ .plane }](https://154.12.80.60/Digilink-1.3.10-universal-release.apk){ .md-button }[^1] 
 
 ### 2️⃣:官网地址:
 

@@ -1,7 +1,7 @@
 # Shadowrocket 教程![Image title](../../assets/photo/ios/sr/srlogo.jpg){ width="40" }
 ---
 
-[联系客服 :fontawesome-solid-paper-plane:{ .plane }](../../chat.html){ .md-button .md-button--primary }
+[联系客服 :fontawesome-solid-user-plus:{ .plane }](../../chat.html){ .md-button .md-button--primary }
 
 ---
 
@@ -11,7 +11,7 @@
     需要获取一个国外的苹果id,点击下方链接获取.
     您自己的外区ID也可以,这个app需要付费,我们的ID为购买好的
     
-[⏬ 点此获取 ⏬](https://shop.papawall.cc/buy/1){ .md-button }[^1] 
+[:material-arrow-down:{ .plane } 点此获取 :material-arrow-down:{ .plane }](https://shop.papawall.cc/buy/1){ .md-button }[^1] 
 
 ---
 

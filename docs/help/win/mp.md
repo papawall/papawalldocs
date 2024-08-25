@@ -1,7 +1,7 @@
 # Mihomo Party![Image title](../../assets/photo/win/mp/mplogo.png){ width="50" }教程
 ---
 
-[联系客服 :fontawesome-solid-paper-plane:{ .plane }](../../chat.html){ .md-button .md-button--primary }
+[联系客服 :fontawesome-solid-user-plus:{ .plane }](../../chat.html){ .md-button .md-button--primary }
 
 ---
 
@@ -10,7 +10,7 @@
     
     此客户端更新频繁,而且可以备份设置到你自己的WebDav 比较方便 与mac平台通用.
     
-[⏬ 点此下载 ⏬](https://154.12.80.60/mp_1.0.4.exe){ .md-button }[^1] 
+[:material-arrow-down:{ .plane } 点此下载 :material-arrow-down:{ .plane }](https://154.12.80.60/mp_1.0.4.exe){ .md-button }[^1] 
 
 ---
 
