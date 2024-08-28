@@ -28,7 +28,6 @@
 ---
 
 ### 3️⃣:登录国外Apple ID
-!!! note "准备好苹果ID 去官网把账户登录好,停留在有一键订阅的页面就行 "
 ---
 !!! abstract "打开App Store"
 <figure markdown="span">
