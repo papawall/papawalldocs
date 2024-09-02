@@ -25,7 +25,7 @@
 
 - [Shadowrocket](./ios/sr.md)
 - ❌singbox 搁浅一下
-- [DigiLink🔥(新手推荐)](./android/digilink.md)
+- [DigiLink🔥(新手推荐)](./ios/digilink.md)
 
 ---
 
