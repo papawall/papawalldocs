@@ -28,7 +28,7 @@
     软件内可以注册账户,有账户的小伙伴直接登录即可.
 <figure markdown="span">
 ![Image title](../../assets/photo/android/digilink/adl1.png){ width="350" }
-  <figcaption>打开官网,点击一键订阅,然后点击打开Clash For Android</figcaption>
+  <figcaption></figcaption>
 </figure> 
 
 ---
