@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -81,35 +81,45 @@
             100% { opacity: 1; }
         }
     </style>
-    <script type="text/javascript">
-        window.$crisp = [];
-        window.CRISP_WEBSITE_ID = "c7e085e8-fb04-4a11-bf21-74d981af2dab";
-        (function() {
-            d = document;
-            s = d.createElement("script");
-            s.src = "https://client.crisp.chat/l.js";
-            s.async = 1;
-            d.getElementsByTagName("head")[0].appendChild(s);
-        })();
-
-        function displayConnectedMessage() {
-            const messageDiv = document.querySelector('.message');
-            const connectedMessageDiv = document.querySelector('.connected-message');
-            messageDiv.style.display = 'none';
-            connectedMessageDiv.style.display = 'block';
-            document.body.style.background = 'url(https://bbs.papawall.cc/assets/bg22.jpg) no-repeat center center fixed'; // 更改背景图片
-            document.body.style.backgroundSize = 'cover';
-            document.querySelector('.links-container').style.display = 'flex';
-        }
-
-        setTimeout(function() {
-            window.$crisp.push(['do', 'chat:open']);
-            displayConnectedMessage();
-        }, 8000); // 8秒后
+    <script>
+        window.chatwootSettings = {"position":"right","type":"standard","launcherTitle":"联系我们"};
+        (function(d,t) {
+            var BASE_URL="https://app.chatwoot.com";
+            var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=BASE_URL+"/packs/js/sdk.js";
+            g.defer = true;
+            g.async = true;
+            s.parentNode.insertBefore(g,s);
+            g.onload=function(){
+                window.chatwootSDK.run({
+                    websiteToken: 't7rPxeAxpbUGMZuPYFkTdfnt',
+                    baseUrl: BASE_URL
+                });
+                
+                // 等待5秒，然后模拟点击Chatwoot图标
+                setTimeout(function() {
+                    var chatwootLauncher = document.querySelector('.woot--bubble-holder');
+                    if (chatwootLauncher) {
+                        chatwootLauncher.click();
+                    }
+                    
+                    // 更换背景图片
+                    document.body.style.backgroundImage = "url('https://bbs.papawall.cc/assets/bg22.jpg')";
+                    
+                    // 显示已连接信息和链接
+                    document.querySelector('.connected-message').style.display = 'block';
+                    document.querySelector('.links-container').style.display = 'flex';
+                    
+                    // 隐藏客服连线中消息
+                    document.querySelector('.message').style.display = 'none';
+                }, 5000);
+            }
+        })(document,"script");
     </script>
 </head>
 <body>
     <div class="connected-message">已连接</div>
+    <div class="connected-message">请直接点击"开始会话"</div>
     <div class="message-container">
         <div class="message">
             世界有你更美好<br>
