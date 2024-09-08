@@ -6,12 +6,16 @@
 ---
 
 ## [点击查看教程](./help/index.md)
-[联系客服 :fontawesome-solid-user-plus:{ .plane }](../../chat.html){ .md-button .md-button--primary }
+[联系客服 :fontawesome-solid-user-plus:{ .plane }](chat.html){ .md-button .md-button--primary }
 
 
 
 !!! bug "教程更新内容"
 
+    === "9.8更新 "其他栏目""
+        ``` markdown
+        * 国行iPhone开启Apple Intelligence
+        ```
     === "游戏加速"
 
         ``` markdown

@@ -11,6 +11,8 @@ nav:  #边侧栏目录
     - 💻Mac教程: ./help/mac/index.md
     - 📱Android教程: ./help/android/index.md
     - 🍎iOS教程: ./help/ios/index.md
+  - 🎰其他:
+    - 👀国行iPhoneAI开启教程: ./other/iosai.md
 
 repo_name: PaPaWall/Doc
 repo_url: https://papawall.pro
