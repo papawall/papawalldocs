@@ -83,7 +83,7 @@
 ---
 
 !!! warning "更新订阅,很重要,敲黑板!"
-    在配置选项里面 刷新按钮 更新的适合请先停止代理
+    在配置选项里面 刷新按钮 更新的时候请先停止代理
 <figure markdown="span">
 ![Image title](../../assets/photo/android/clash/aclash8.png){ width="480" }
   <figcaption>订阅更新</figcaption>
