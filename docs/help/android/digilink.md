@@ -10,7 +10,7 @@
     
     最简单的客户端,只需要在软件里面注册 登录 购买好订阅即可使用.
     
-[:material-arrow-down:{ .plane } 点此下载 :material-arrow-down:{ .plane }](https://154.12.80.60/Digilink-1.3.10-universal-release.apk){ .md-button }[^1] 
+[:material-arrow-down:{ .plane } 点此下载 :material-arrow-down:{ .plane }](http://154.12.60.107:10010/Digilink_1.3.10.apk){ .md-button }[^1] 
 
 ### 2️⃣:官网地址:
 

@@ -2,7 +2,7 @@
 ---
 
 <figure markdown="span">
-![Image title](../../assets/photo/other/iosai/1.jpg){ width="400" }
+![Image title](../assets/photo/other/iosai/1.jpg){ width="400" }
   <figcaption></figcaption>
 </figure>
 
@@ -31,11 +31,11 @@
 [:material-arrow-down:{ .plane } 点此下载 :material-arrow-down:{ .plane }](https://github.com/straight-tamago/misakaX/releases){ .md-button }
 
 <figure markdown="span">
-![Image title](../../assets/photo/other/iosai/2.jpg)
+![Image title](../assets/photo/other/iosai/2.jpg)
   <figcaption>Mac 版和 Windows 版其中 Windows 版需要电脑上安装 iTunes。</figcaption>
 </figure>
 <figure markdown="span">
-![Image title](../../assets/photo/other/iosai/3.jpg)
+![Image title](../assets/photo/other/iosai/3.jpg)
   <figcaption>打开以后是这样的</figcaption>
 </figure>
 
@@ -48,7 +48,7 @@
 !!! tip "运行指令之后，配置文件保存在 iCloud 云盘，或者其他办法导入到 Mac 或 Windows 电脑上。"
     每个手机代码不一样,只能自己使用自己的配置文件
 <figure markdown="span">
-![Image title](../../assets/photo/other/iosai/4.jpg)
+![Image title](../assets/photo/other/iosai/4.jpg)
   <figcaption>扫码添加快捷指令</figcaption>
 </figure>
 
@@ -59,13 +59,13 @@
 ### 3️⃣ iPhone 连上电脑，MisakaX 上导入配置文件：
 !!! tip "点击Select MobileGestalt File 把配置文件拖进去."
 <figure markdown="span">
-![Image title](../../assets/photo/other/iosai/5.jpg)
+![Image title](../assets/photo/other/iosai/5.jpg)
   <figcaption></figcaption>
 </figure>
 
 !!! tip "勾选 Apple Intelligence （iOS 18.1 beta），然后点击 Apply（应用）"
 <figure markdown="span">
-![Image title](../../assets/photo/other/iosai/6.jpg)
+![Image title](../assets/photo/other/iosai/6.jpg)
   <figcaption></figcaption>
 </figure>
 !!! quote "设置期间会询问你是否要启用 Apple Intelligence，请选择是，一般加入 Wishlist 之后十几分钟即可使用。"
@@ -73,24 +73,24 @@
 ---
 !!! tip "在完成设置向导后，将你的 iPhone 连接到充电器，并保持连接到 Wi-Fi，iOS 会在后台自动下载 Apple Intelligence 所需的模型文件。当下载完毕之后，你将会收到通知。"
 <figure markdown="span">
-![Image title](../../assets/photo/other/iosai/7.jpg){ width="450" }
+![Image title](../assets/photo/other/iosai/7.jpg){ width="450" }
   <figcaption></figcaption>
 </figure>
 
 !!! tip "这时候如果你在关于本机查看，就会发现版本已经变成了 LL/A 结尾的美版 iPhone 了。于是乎，这样就带来了这个教程的风险："
 <figure markdown="span">
-![Image title](../../assets/photo/other/iosai/8.jpg)
+![Image title](../assets/photo/other/iosai/8.jpg)
   <figcaption></figcaption>
 </figure>
 <figure markdown="span">
-![Image title](../../assets/photo/other/iosai/9.jpg)
+![Image title](../assets/photo/other/iosai/9.jpg)
   <figcaption></figcaption>
 </figure>
 ---
 
 !!! success "目前 iOS 18.1 的 Apple Intelligence 还不够完善，许多涉及到总结改写的文字功能都只支持英文，包括 ChatGPT 集成和表情创建等功能还未上线测试，目前唯一无障碍使用的大概就是就是照片清除功能了："
 <figure markdown="span">
-![Image title](../../assets/photo/other/iosai/10.gif)
+![Image title](../assets/photo/other/iosai/10.gif)
   <figcaption></figcaption>
 </figure>
 

@@ -10,8 +10,8 @@
     
     此客户端更新频繁,而且可以备份设置到你自己的WebDav 比较方便 与win平台通用.
     
-[:material-arrow-down:{ .plane } M系列处理器点此下载 :material-arrow-down:{ .plane }](https://154.12.80.60/mihomo-party-macos-1.0.4-arm64.dmg){ .md-button }
-[:material-arrow-down:{ .plane } Intel系列处理器点此下载 :material-arrow-down:{ .plane }](https://154.12.80.60/mihomo-party-macos-1.0.4-x64.dmg){ .md-button }[^1] 
+[:material-arrow-down:{ .plane } M系列处理器点此下载 :material-arrow-down:{ .plane }](http://154.12.60.107:10010/mp_macos_1.2.17_arm64.dmg){ .md-button }
+[:material-arrow-down:{ .plane } Intel系列处理器点此下载 :material-arrow-down:{ .plane }](http://154.12.60.107:10010/mp_macos_1.2.17-x64.dmg){ .md-button }[^1] 
 
 ---
 

