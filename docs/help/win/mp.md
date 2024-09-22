@@ -10,7 +10,7 @@
     
     此客户端更新频繁,而且可以备份设置到你自己的WebDav 比较方便 与mac平台通用.
     
-[:material-arrow-down:{ .plane } 点此下载 :material-arrow-down:{ .plane }](http://154.12.60.107:10010/mp_windows_1.2.17_x64.exe){ .md-button }[^1] 
+[:material-arrow-down:{ .plane } 点此下载 :material-arrow-down:{ .plane }](https://down.papawall.cc/mp_windows_1.2.17_x64.exe){ .md-button }[^1] 
 
 ---
 

@@ -11,7 +11,7 @@
 
 ### 1️⃣:下载客户端
 
-[:material-arrow-down:{ .plane } 点此下载 :material-arrow-down:{ .plane }](http://154.12.60.107:10010/v2rayN.exe){ .md-button }[^1] 
+[:material-arrow-down:{ .plane } 点此下载 :material-arrow-down:{ .plane }](https://down.papawall.cc/v2rayN.exe){ .md-button }[^1] 
 
 ---
 
