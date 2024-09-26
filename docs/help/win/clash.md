@@ -54,12 +54,18 @@
 ---
 
 !!! tip "节点选择与使用"
-    节点的选择由你自己的需求来决定,比如物理位置.延迟.
+    节点的选择由你自己的需求来决定,比如物理位置.延迟. 请点击“SELECT”来进行节点的选择哦
+
+<figure markdown="span">
+![Image title](../../assets/photo/win/clash/clash5.png){ width="600" }
+  <figcaption>请点击SELECT里面的节点进行选择哦。</figcaption>
+</figure>
 
 <figure markdown="span">
 ![Image title](../../assets/photo/win/clash/clash3.png){ width="600" }
   <figcaption>选择一个你喜欢的节点</figcaption>
 </figure>
+
 
 ---
 
