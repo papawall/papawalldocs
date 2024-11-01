@@ -70,8 +70,7 @@ plugins:
     - search
     - tags
     - encryptcontent:
-        global_password: '1234'
-        #password_file: 'passwords.yml'
+        global_password: '1234' 
 
 markdown_extensions:
   - pymdownx.highlight:
