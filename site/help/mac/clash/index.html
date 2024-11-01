@@ -1,0 +1,714 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://docs.papawall.cc/help/mac/clash/">
+      
+      
+      
+      
+      <link rel="icon" href="../../../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.33">
+    
+    
+      
+        <title>[加密]Clash 教程Image title - ✈️NULL DOC</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.3cba04c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../css/color.css">
+    
+      <link rel="stylesheet" href="../../../css/donghua.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#clash" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://docs.papawall.cc" title="✈️NULL DOC" class="md-header__button md-logo" aria-label="✈️NULL DOC" data-md-component="logo">
+      
+  <img src="../../../assets/googlelogo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ✈️NULL DOC
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              [加密]Clash 教程Image title
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://papawall.pro" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M22.2 32A16 16 0 0 0 6 47.8a26.35 26.35 0 0 0 .2 2.8l67.9 412.1a21.77 21.77 0 0 0 21.3 18.2h325.7a16 16 0 0 0 16-13.4L505 50.7a16 16 0 0 0-13.2-18.3 24.58 24.58 0 0 0-2.8-.2L22.2 32zm285.9 297.8h-104l-28.1-147h157.3l-25.2 147z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    PaPaWall/Doc
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://docs.papawall.cc" title="✈️NULL DOC" class="md-nav__button md-logo" aria-label="✈️NULL DOC" data-md-component="logo">
+      
+  <img src="../../../assets/googlelogo.png" alt="logo">
+
+    </a>
+    ✈️NULL DOC
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://papawall.pro" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M22.2 32A16 16 0 0 0 6 47.8a26.35 26.35 0 0 0 .2 2.8l67.9 412.1a21.77 21.77 0 0 0 21.3 18.2h325.7a16 16 0 0 0 16-13.4L505 50.7a16 16 0 0 0-13.2-18.3 24.58 24.58 0 0 0-2.8-.2L22.2 32zm285.9 297.8h-104l-28.1-147h157.3l-25.2 147z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    PaPaWall/Doc
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    [加密]🌈档案首页
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://papawall.pro" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ✈️停机坪
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://shop.papawall.cc" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    🏪NULL商店
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    [加密]⚡档案目录
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    📚教程
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            📚教程
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../win/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    🖥️Windows教程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    [加密]💻Mac教程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../android/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    [加密]📱Android教程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ios/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    [加密]🍎iOS教程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    🎰其他
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            🎰其他
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../other/iosai/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    👀国行iPhoneAI开启教程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../other/yc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    🌌远程软件下载
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣:首先下载客户端
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2️⃣:登录官网
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3️⃣:软件的安装
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      4️⃣:软件的配置
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❓连不上怎么办
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<div id="mkdocs-encrypted-content" style="display:none">OLyksQxGaL6BXrf1/UWOZg==;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</div>
+<div id="mkdocs-decrypted-content">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>这个页面受到密码保护,请输入密码</h1>
+        <p>默认密码是:最小的4位数 木棍 二条 三杠 四条 防止爬虫</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="请输入密码">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "help/mac/clash/";
+var decryption_failure_message = "\u5bc6\u7801\u4e0d\u5bf9\u54e6\u5c0f\u8001\u5f1f";
+var encryptcontent_keystore = ["kFSjw1/YfJhvItHFDggLlw==;WG1zDV6w5R7xha++Cv1XkFZ9jSmTta1NiwJg/oqH1mbxJSwDHGLnf9ZBFpNche7VDHPLm6MYQL+07zDixzGTehkHRacIuSVpU7jJihLl3hibkankWMa1tWuoCUk6D7Oa;WlbhtDbaAncWuv8GBtFAVw=="];
+var encryptcontent_obfuscate = 0;
+
+</script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/core.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/enc-base64.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/cipher-core.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/sha256.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/hmac.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/pbkdf2.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/aes.js"></script>
+<script type="text/javascript" src="../../../assets/javascripts/decrypt-contents.js" defer></script>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy 2017 - 2024 <a href="https://papawall.pro" target="_blank" rel="noopener">PaPa Wall Doc</a>
+
+    </div>
+  
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://t.me/PaPaWall" target="_blank" rel="noopener" title="t.me" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M248 8C111.033 8 0 119.033 0 256s111.033 248 248 248 248-111.033 248-248S384.967 8 248 8Zm114.952 168.66c-3.732 39.215-19.881 134.378-28.1 178.3-3.476 18.584-10.322 24.816-16.948 25.425-14.4 1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25 5.342-39.5 3.652-3.793 67.107-61.51 68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608 69.142-14.845 10.194-26.894 9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7 18.45-13.7 108.446-47.248 144.628-62.3c68.872-28.647 83.183-33.623 92.511-33.789 2.052-.034 6.639.474 9.61 2.885a10.452 10.452 0 0 1 3.53 6.716 43.765 43.765 0 0 1 .417 9.769Z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://papawall.pro" target="_blank" rel="noopener" title="papawall.pro" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M483.049 159.706c10.855-24.575 21.424-60.438 21.424-87.871 0-72.722-79.641-98.371-209.673-38.577-107.632-7.181-211.221 73.67-237.098 186.457 30.852-34.862 78.271-82.298 121.977-101.158C125.404 166.85 79.128 228.002 43.992 291.725 23.246 329.651 0 390.94 0 436.747c0 98.575 92.854 86.5 180.251 42.006 31.423 15.43 66.559 15.573 101.695 15.573 97.124 0 184.249-54.294 216.814-146.022H377.927c-52.509 88.593-196.819 52.996-196.819-47.436H509.9c6.407-43.581-1.655-95.715-26.851-141.162zM64.559 346.877c17.711 51.15 53.703 95.871 100.266 123.304-88.741 48.94-173.267 29.096-100.266-123.304zm115.977-108.873c2-55.151 50.276-94.871 103.98-94.871 53.418 0 101.981 39.72 103.981 94.871H180.536zm184.536-187.6c21.425-10.287 48.563-22.003 72.558-22.003 31.422 0 54.274 21.717 54.274 53.722 0 20.003-7.427 49.007-14.569 67.867-26.28-42.292-65.986-81.584-112.263-99.586z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://t.me/PaPaWallInd" target="_blank" rel="noopener" title="t.me" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M570.9 372.3c-11.3 14.2-38.8 24.3-38.8 24.3L327 470.2v-54.3l150.9-53.8c17.1-6.1 19.8-14.8 5.8-19.4-13.9-4.6-39.1-3.3-56.2 2.9L327 381.1v-56.4c23.2-7.8 47.1-13.6 75.7-16.8 40.9-4.5 90.9.6 130.2 15.5 44.2 14 49.2 34.7 38 48.9zm-224.4-92.5v-139c0-16.3-3-31.3-18.3-35.6-11.7-3.8-19 7.1-19 23.4v347.9l-93.8-29.8V32c39.9 7.4 98 24.9 129.2 35.4C424.1 94.7 451 128.7 451 205.2c0 74.5-46 102.8-104.5 74.6zM43.2 410.2c-45.4-12.8-53-39.5-32.3-54.8 19.1-14.2 51.7-24.9 51.7-24.9l134.5-47.8v54.5l-96.8 34.6c-17.1 6.1-19.7 14.8-5.8 19.4 13.9 4.6 39.1 3.3 56.2-2.9l46.4-16.9v48.8c-51.6 9.3-101.4 7.3-153.9-10z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.af256bd8.min.js"></script>
+      
+        <script src="../../../js/githubpl.js"></script>
+      
+    
+  </body>
+</html>
