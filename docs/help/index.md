@@ -47,8 +47,7 @@
 ---
 
     🤦‍♂️🤷‍♂️如果遇到问题自己无法解决请点击下方
-[联系客服 :fontawesome-solid-user-plus:{ .plane }](https://papawall.pro/chat.html){ .md-button .md-button--primary }
-
+[联系客服 :fontawesome-solid-user-plus:{ .plane }](javascript:void(0);){: .md-button .md-button--primary #contact-support }
 
 `注:安卓&ios 无法远程设备 需要通过截图来解决`
 

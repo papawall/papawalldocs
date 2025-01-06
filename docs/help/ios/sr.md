@@ -1,7 +1,7 @@
 # Shadowrocket 教程![Image title](../../assets/photo/ios/sr/srlogo.jpg){ width="40" }
 ---
 
-[联系客服 :fontawesome-solid-user-plus:{ .plane }](../../chat.html){ .md-button .md-button--primary }
+[联系客服](javascript:void(0);){: .md-button .md-button--primary #contact-support }
 
 ---
 

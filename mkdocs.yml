@@ -69,15 +69,6 @@ theme:
 plugins:
     - search
     - tags
-    - encryptcontent:
-        global_password: '1234'
-        title_prefix: '[加密]'
-        summary: '这个页面受到密码保护,请输入密码'
-        placeholder: '请输入密码'
-        decryption_failure_message: '密码不对哦小老弟'
-        encryption_info_message: "默认密码是:最小的4位数 木棍 二条 三杠 四条 防止爬虫"
-        #input_class: 'md-search__form md-search__input'
-        #button_class: 'md-search__icon'
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -137,4 +128,4 @@ copyright: |
   &copy 2017 - 2024 <a href="https://papawall.pro" target="_blank" rel="noopener">PaPa Wall Doc</a>
 
 extra_javascript:
-  - js/githubpl.js
+  - js/chatwoot.js

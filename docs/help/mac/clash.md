@@ -1,7 +1,7 @@
 # Clash 教程![Image title](../../assets/photo/win/clash/clashlogo.png){ width="40" }
 ---
 
-[联系客服 :fontawesome-solid-user-plus:{ .plane }](../../chat.html){ .md-button .md-button--primary }
+[联系客服](javascript:void(0);){: .md-button .md-button--primary #contact-support }
 
 ---
 

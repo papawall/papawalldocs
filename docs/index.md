@@ -1,20 +1,23 @@
 # PaPaDoc 帮助文档
 
-- ^^记得向你需要的小伙伴分享 [帮助文档](https://docs.papawall.cc "https://docs.papawall.cc")^^
-:material-information-outline:{ title="复制分享给你的好友" }
-:octicons-heart-fill-24:{ .heart }   :fontawesome-brands-youtube:{ .youtube }
+[点击查看教程](./help/index.md){ .md-button .md-button--primary }
+[联系客服 :fontawesome-solid-user-plus:{ .plane }](javascript:void(0);){: .md-button .md-button--primary #contact-support }
+
+
 ---
 
-## [点击查看教程](./help/index.md)
-[联系客服 :fontawesome-solid-user-plus:{ .plane }](chat.html){ .md-button .md-button--primary }
+-记得向你需要的小伙伴分享 [点此复制教程地址](javascript:void(0);){: .md-button .md-button--primary id="copy-docs-link" }
+
+:material-information-outline:{ title="复制分享给你的好友" }
+:octicons-heart-fill-24:{ .heart }   :fontawesome-brands-youtube:{ .youtube }
 
 
 
 !!! bug "教程更新内容"
 
-    === "9.8更新 "其他栏目""
+    === "1.6更新"
         ``` markdown
-        * 国行iPhone开启Apple Intelligence
+        * 全平台下载地址
         ```
     === "游戏加速"
 
