@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NULL</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* 内容在中间 */
+            align-items: center;
+            text-align: center;
+            background: url('https://jump.papawall.cc/photo/bg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            transition: background 1s ease; /* 背景图片消失时的过渡效果 */
+        }
+        .message-container {
+            position: relative;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* 垂直居中 */
+            align-items: center;
+        }
+        .message {
+            font-size: 25px;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px #000000;
+            animation: blink 1.5s infinite;
+            transition: font-size 1s ease, color 1s ease; /* 字体大小、颜色变化时的过渡效果 */
+        }
+        .connected-message {
+            font-size: 27px;
+            color: #000000;
+            margin-top: 20px;
+            display: none; /* 初始不显示 */
+        }
+        .icon {
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            font-size: 50px;
+            color: #007bff;
+            cursor: pointer;
+            animation: blink 1s infinite;
+        }
+        .links-container {
+            display: none;
+            justify-content: center; /* 水平居中 */
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+            border: 2px solid #000;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .links a {
+            color: #000000;
+            text-decoration: none;
+            margin: 5px 0;
+            font-size: 20px;
+            padding: 10px 20px;
+            border: 1px solid #000;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.9);
+            width: 100%;
+            max-width: 200px; /* 限制最大宽度 */
+        }
+        .inner-link {
+            margin: 10px 0; /* 外方框与内方框的间隔 */
+        }
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+    <script>
+        window.chatwootSettings = {"position":"right","type":"standard","launcherTitle":"联系我们"};
+        (function(d,t) {
+            var BASE_URL="https://app.chatwoot.com";
+            var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=BASE_URL+"/packs/js/sdk.js";
+            g.defer = true;
+            g.async = true;
+            s.parentNode.insertBefore(g,s);
+            g.onload=function(){
+                window.chatwootSDK.run({
+                    websiteToken: 't7rPxeAxpbUGMZuPYFkTdfnt',
+                    baseUrl: BASE_URL
+                });
+                
+                // 等待5秒，然后模拟点击Chatwoot图标
+                setTimeout(function() {
+                    var chatwootLauncher = document.querySelector('.woot--bubble-holder');
+                    if (chatwootLauncher) {
+                        chatwootLauncher.click();
+                    }
+                    
+                    // 更换背景图片
+                    document.body.style.backgroundImage = "url('https://jump.papawall.cc/photo/bg22.jpg')";
+                    
+                    // 显示已连接信息和链接
+                    document.querySelector('.connected-message').style.display = 'block';
+                    document.querySelector('.links-container').style.display = 'flex';
+                    
+                    // 隐藏客服连线中消息
+                    document.querySelector('.message').style.display = 'none';
+                }, 5000);
+            }
+        })(document,"script");
+    </script>
+</head>
+<body>
+    <div class="connected-message">已连接</div>
+    <div class="connected-message">请直接点击"开始会话"</div>
+    <div class="message-container">
+        <div class="message">
+            世界有你更美好<br>
+            客服连线中...
+        </div>
+    </div>
+    <div class="icon" onclick="window.$crisp.push(['do', 'chat:open'])">
+        &#x21AA;
+    </div>
+    <div class="links-container">
+        <div class="inner-link"><a href="https://docs.papawall.cc">返回文档</a></div>
+        <div class="inner-link"><a href="https://jump.papawall.cc/#/login">登录&注册</a></div>
+    </div>
+</body>
+</html>
