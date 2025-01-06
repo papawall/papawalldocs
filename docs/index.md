@@ -1,7 +1,7 @@
 # PaPaDoc 帮助文档
 
 [点击查看教程](./help/index.md){ .md-button .md-button--primary }
-[联系客服 :fontawesome-solid-user-plus:{ .plane }](javascript:void(0);){: .md-button .md-button--primary #contact-support }
+[右下角↘️联系客服 :fontawesome-solid-user-plus:{ .plane }](javascript:void(0);){: .md-button .md-button--primary #contact-support }
 
 
 ---

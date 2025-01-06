@@ -1,7 +1,7 @@
 # DigiLink 教程![Image title](../../assets/photo/win/digilink/digilinklogo.png){ width="40" }
 ---
 
-[联系客服](javascript:void(0);){: .md-button .md-button--primary #contact-support }
+[右下角↘️联系客服 :fontawesome-solid-user-plus:{ .plane }](javascript:void(0);){: .md-button .md-button--primary #contact-support }
 
 ---
 

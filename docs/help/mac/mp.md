@@ -1,7 +1,7 @@
 # Mihomo Party教程 ![Image title](../../assets/photo/win/mp/mplogo.png){ width="50" }
 ---
 
-[联系客服](javascript:void(0);){: .md-button .md-button--primary #contact-support }
+[右下角↘️联系客服 :fontawesome-solid-user-plus:{ .plane }](javascript:void(0);){: .md-button .md-button--primary #contact-support }
 
 ---
 
